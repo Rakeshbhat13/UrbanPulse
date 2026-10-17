@@ -1,0 +1,32 @@
+# Data files — download via data/README.md
+data/*.avi
+data/*.mp4
+data/*.csv
+!data/README.md
+
+# Model artifacts
+models/*.keras
+models/*.joblib
+models/*.json
+!models/README.md
+
+# Outputs
+outputs/*
+!outputs/README.md
+
+# Python
+__pycache__/
+*.pyc
+*.egg-info/
+.eggs/
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
